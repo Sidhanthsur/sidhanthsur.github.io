@@ -1,0 +1,56 @@
+.home-main {
+    background-color:  #474747;
+    height: inherit;
+    padding-top: 2%;
+    font-size: 24px;
+}
+
+.home-row-one {
+
+    justify-content: center;
+    align-items: center;
+    background:  #191919;
+    padding: 2%;
+}
+
+
+
+.home-col-one {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.home-intro {
+    font-family: 'Rubik';
+    font-size: 1em;
+    color: white;
+    justify-content: center;
+    padding: 2%;
+}
+
+@media (max-width: 990px) {
+    .home-main {
+        background-color:  #474747;
+        height: inherit;
+        padding-top: 0;
+    }
+    .home-row-one {
+
+        justify-content: center;
+        align-items: center;
+        background:  #191919;
+        padding: 2%;
+        padding-top: 6%;
+    }
+    .home-intro {
+        font-family: 'Rubik';
+        font-size: 0.8em;
+        color: white;
+        justify-content: center;
+        padding: 2%;
+        margin-top: 12px;
+    }
+
+
+}

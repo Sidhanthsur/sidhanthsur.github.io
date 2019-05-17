@@ -1,16 +1,22 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Home from './Containers/Home'
+import color from './Themes/Colors'
+import { createMuiTheme, MuiThemeProvider, } from '@material-ui/core/styles';
+
+const theme = createMuiTheme({
+  palette: {
+    type: 'dark',
+    background: color.background
+  },
+});
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-
-        <h1>Website under construction</h1>
-      </header>
-    </div>
+    <MuiThemeProvider theme={theme}>
+      <Home />
+    </MuiThemeProvider>
   );
 }
 
