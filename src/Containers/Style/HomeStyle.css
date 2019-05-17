@@ -1,7 +1,6 @@
 .home-main {
     background-color:  #474747;
     height: inherit;
-    padding-top: 2%;
     font-size: 24px;
 }
 
@@ -30,11 +29,6 @@
 }
 
 @media (max-width: 990px) {
-    .home-main {
-        background-color:  #474747;
-        height: inherit;
-        padding-top: 0;
-    }
     .home-row-one {
 
         justify-content: center;
