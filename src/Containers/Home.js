@@ -2,6 +2,7 @@ import React from 'react'
 import './Style/HomeStyle.css'
 import { Container, Row, Col } from 'reactstrap'
 import CircleImage from '../Components/CircleImage'
+import PortfolioCard from '../Components/PortfolioCard'
 
 export default function Home() {
     return (
@@ -17,6 +18,23 @@ export default function Home() {
                     </p>
                 </Col>
             </Row>
+
+
+
+            <Row className='d-flex flex-column home-row-two align-items-center p-4 align-content-center'>
+                <h3 className='portfolio-title'>Portfolio</h3>
+                <div className='d-flex flex-row flex-wrap justify-content-around'>
+                    <PortfolioCard
+                        image={require('../Images/sqillit.png')}></PortfolioCard>
+                    <PortfolioCard
+                        image={require('../Images/sqillit.png')}></PortfolioCard>
+                    <PortfolioCard
+                        image={require('../Images/sqillit.png')}></PortfolioCard>
+
+                </div>
+
+            </Row>
+
 
         </Container>
     )

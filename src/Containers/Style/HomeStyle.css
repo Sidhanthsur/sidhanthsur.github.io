@@ -28,6 +28,23 @@
     padding: 2%;
 }
 
+.home-div-two {
+
+}
+
+.home-row-two {
+    background: #191919;
+
+    margin-top: 2%;
+ 
+}
+
+.portfolio-title {
+    font-size: 1em;
+    color: white;
+    font-family: 'Rubik'
+}
+
 @media (max-width: 990px) {
     .home-row-one {
 
