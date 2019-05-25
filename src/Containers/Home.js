@@ -6,35 +6,25 @@ import PortfolioCard from '../Components/PortfolioCard'
 
 export default function Home() {
     return (
-        <Container className='home-main' fluid>
-            <Row className='home-row-one'>
-                <Col lg='4' className='home-col-one'>
-                    <CircleImage></CircleImage>
+        <Container fluid>
+
+            <Row className='main-row'>
+                <Col md='4' className=' d-flex justify-content-center align-items-center'>
+                    <img
+                        className='profile-pic'
+                        src={require('../Images/profile.jpg')} />
                 </Col>
-                <Col lg='8'>
-                    <p className='home-intro'>
-                        Hi ! I am Sidhanth , a full stack Javascript developer. I love to experiment and tinker with new technology.
-                        I believe in learning by doing and that hardwork always beats talent.
+
+                <Col md='8'>
+
+                    <h1 className='font-effect-anaglyph'>Sidhanth Surana</h1>
+                    <p>A Full stack Javascript developer fueled purely by pizzas. A polyglot developer
+                         who loves tinkering and exploring new libraries , frameworks and languages. Core believer
+                         of hardwork beating talent. Currently enjoying the MERN stack and GraphQL schematic for APIs.
                     </p>
                 </Col>
-            </Row>
-
-
-
-            <Row className='d-flex flex-column home-row-two align-items-center p-4 align-content-center'>
-                <h3 className='portfolio-title'>Portfolio</h3>
-                <div className='d-flex flex-row flex-wrap justify-content-around'>
-                    <PortfolioCard
-                        image={require('../Images/sqillit.png')}></PortfolioCard>
-                    <PortfolioCard
-                        image={require('../Images/sqillit.png')}></PortfolioCard>
-                    <PortfolioCard
-                        image={require('../Images/sqillit.png')}></PortfolioCard>
-
-                </div>
 
             </Row>
-
 
         </Container>
     )
