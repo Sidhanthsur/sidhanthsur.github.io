@@ -1,23 +1,82 @@
 .main-row {
-    margin-top: 5%;
+    padding-top: 8%;
+    padding-bottom: 8%
 
+}
+a, a:hover ,a:link, a:visited{ 
+    color: black;
+ } 
+i.fab {
+    height: 42px;
+    width: 24px;
 }
 
 .profile-pic {
-    max-width: 160px;
-    max-height: 200px;
+    max-width: 200px;
+    max-height: 250px;
     filter: grayscale(100%);
     object-fit: contain;
 }
 
 img:hover {
-    filter: grayscale(0%)
+    filter: grayscale(0%);
+}
+
+i {
+    margin-right: 20px;
+}
+
+.title {
+    font-family: 'Source Code Pro', monospace;
 }
 
 p {
-    max-width: 60%;
+    width: 60%;
     margin-top: 5%;
     font-size: 22px;
     font-family: 'Source Code Pro', monospace;
 }
+
+.second-div {
+    width: 60%;
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .title {
+      text-align: center;
+      margin-top: 20px;
+  }
+
+  p {
+      width: 90%;
+      text-align: center;
+      font-size: 16px;
+  }
+
+  .second-div {
+      width: 100%;
+  }
+  
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .title {
+        text-align: center;
+        margin-top: 20px;
+    }
+    p {
+        width: 90%;
+        text-align: center;
+        font-size: 18px;
+    }
+    .second-div {
+        width: 100%;
+    }
+    
+  }
+
+
+
 
