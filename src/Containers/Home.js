@@ -18,7 +18,7 @@ export default function Home() {
                 <Col md='8'>
 
                     <h1 className='font-effect-anaglyph title'>Sidhanth Surana</h1>
-                    <p>A Full stack Javascript web and mobile developer fueled purely by pizzas. A polyglot developer
+                    <p>A Full Stack Javascript web and mobile developer fueled purely by pizzas. A polyglot programmer
                          who loves tinkering and exploring new libraries , frameworks and languages. Core believer
                          of hardwork beating talent. Currently enjoying the MERN stack and GraphQL schematic for APIs.
                     </p>
